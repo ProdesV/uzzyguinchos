@@ -6,14 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guincho 24 Horas</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
 
 <body>
-    <header>
+    <header id="home">
         <nav>
             <ul>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#sobre">Sobre</a></li>
             </ul>
         </nav>
         <div class="content">
@@ -28,34 +33,31 @@
         </div>
     </header>
 
-    <body>
-        <header>
+    <section id="sobre" class="sobre">
+        <h2>Quem Somos</h2>
+        <p>Somos a Uzzy Transportes, especialistas em guincho leve e pesado, transporte de máquinas e remoção de
+            veículos. Atuamos com agilidade, segurança e compromisso em toda a região.</p>
+    </section>
 
-        <section id="sobre" class="sobre">
-            <h2>Quem Somos</h2>
-            <p>Somos a Uzzy Transportes, especialistas em guincho leve e pesado, transporte de máquinas e remoção de
-                veículos. Atuamos com agilidade, segurança e compromisso em toda a região.</p>
-        </section>
+    <section id="servicos" class="servicos">
+        <h2>Serviços</h2>
+        <ul>
+            <li>✅ Guincho leve e pesado</li>
+            <li>✅ Transporte de máquinas agrícolas</li>
+            <li>✅ Remoção de veículos acidentados</li>
+            <li>✅ Atendimento 24 horas</li>
+            <li>✅ Cobertura regional e estadual</li>
+        </ul>
+    </section>
 
-        <section id="servicos" class="servicos">
-            <h2>Serviços</h2>
-            <ul>
-                <li>✅ Guincho leve e pesado</li>
-                <li>✅ Transporte de máquinas agrícolas</li>
-                <li>✅ Remoção de veículos acidentados</li>
-                <li>✅ Atendimento 24 horas</li>
-                <li>✅ Cobertura regional e estadual</li>
-            </ul>
-        </section>
-
-        <section class="galeria">
-            <h2>Nosso Caminhão em Ação</h2>
-            <div class="imagens">
-                <img src="./img/IMG-20251003-WA0001.jpg" alt="Guincho Uzzy 1">
-                <img src="./img/IMG-20251003-WA0002.jpg" alt="Guincho Uzzy 2">
-                <img src="./img/Imagem do WhatsApp de 2025-10-23 à(s) 12.42.47_d3be0bae.jpg" alt="Guincho Uzzy 3">
-            </div>
-        </section>
-    </body>
+    <section class="galeria">
+        <h2>Nosso Caminhão em Ação</h2>
+        <div class="imagens">
+            <img src="./img/IMG-20251003-WA0001.jpg" alt="Guincho Uzzy 1">
+            <img src="./img/IMG-20251003-WA0002.jpg" alt="Guincho Uzzy 2">
+            <img src="./img/Imagem do WhatsApp de 2025-10-23 à(s) 12.42.47_d3be0bae.jpg" alt="Guincho Uzzy 3">
+        </div>
+    </section>
+</body>
 
 </html>
